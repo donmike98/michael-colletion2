@@ -1,0 +1,119 @@
+header {
+    background: #999;
+    color: #111;
+    padding: 20px 15px 0px 15px
+}
+
+body {
+    margin: 1px auto;
+    width: 80%;
+}
+
+header h1 {
+    margin: 1px;
+    display: inline;
+    font-family: arial;
+    display: block;
+    text-align: right;
+}
+
+nav ul {
+    margin: 1px;
+    display: inline;
+}
+
+nav ul li {
+    background: #333;
+    display: inline-block;
+    list-style-type: none;
+    padding: 5px 15px;
+}
+
+nav ul li a {
+    color: #888;
+    text-decoration: none;
+}
+
+.row {}
+
+.col {
+    float: left;
+    margin: 5px 15px 10px 0px;
+    width: 31%;
+}
+
+footer {
+    clear: both;
+    background: #999;
+}
+
+.Title {
+    width: 35%;
+    float: left;
+    background-color: #999;
+    border-radius: 10px;
+    margin: 5% 0 2% 10%;
+    padding: 2% 2%;
+}
+
+#form-wrap {
+    width: 600px;
+    border: 5px solid #ccc;
+    background-color: #002aff;
+    margin: 50px auto;
+    padding: 20px 0;
+}
+
+form {
+    width: 500px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin: 5px 0 5px 20px;
+    font: 10px sans-serif;
+    color: #888
+}
+
+input {
+    width: 250px;
+    margin: 0 0 0 20px;
+}
+
+textarea {
+    width: 250px;
+    margin: 0 0 0 20px;
+}
+
+fieldset {
+    border: none;
+    background-color: #f6f6f6;
+    padding: 0 0 20px 0;
+}
+
+.labelone {
+    margin-top: 10px;
+}
+
+.btn {
+    width: 125px;
+}
+
+form h4 {
+    margin: 20px 0 0 30px;
+    font: 24px arial;
+    color: #002aff;
+    font-weight: bold;
+}
+a{
+  text-decoration: none;
+}
+h4{
+  font-family: arial;
+  font-size: 25px;
+}
+p{
+  font-size: 16px;
+  font-family: arial;
+}
