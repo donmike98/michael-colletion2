@@ -12,6 +12,9 @@ body {
 header h1 {
     margin: 1px;
     display: inline;
+    font-family: arial;
+    display: block;
+    text-align: right;
 }
 
 nav ul {
@@ -35,7 +38,7 @@ nav ul li a {
 
 .col {
     float: left;
-    margin: 5px 15px 0px 0px;
+    margin: 5px 15px 10px 0px;
     width: 31%;
 }
 
@@ -51,8 +54,8 @@ footer {
     border-radius: 10px;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
-    margin: 15% 0 2% 3%;
-    padding: 2% 3%;
+    margin: 7% 0 2% 10%;
+    padding: 2% 2%;
 }
 
 #form-wrap {
@@ -101,7 +104,18 @@ fieldset {
 
 form h4 {
     margin: 20px 0 0 30px;
-    font: 24px sans-serif;
+    font: 24px arial;
     color: #002aff;
     font-weight: bold;
+}
+a{
+  text-decoration: none;
+}
+h4{
+  font-family: arial;
+  font-size: 25px;
+}
+p{
+  font-size: 15px;
+  font-family: arial;
 }
